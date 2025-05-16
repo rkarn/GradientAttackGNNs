@@ -1,4 +1,4 @@
-# Gradient-Based Leakage Attacks for Neural Networks and GCNNs in Circuit Analysis
+# Gradient-Based Leakage Attacks for Graph Convolution Neural Networks (GCNNs) in Circuit Analysis
 
 This repository demonstrates gradient-based leakage attacks applied first to a standard neural network trained on the MNIST dataset and then to a Graph Convolutional Neural Network (GCNN) trained on real-world circuit datasets (ISCAS'85 and EPFL).
 
