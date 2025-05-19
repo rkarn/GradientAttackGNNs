@@ -27,6 +27,11 @@ This notebook parses raw circuit netlist data from the ISCAS'85 and EPFL benchma
 - Apply gradient-based leakage attacks to reconstruct sensitive node features.
 - Analyze reconstruction errors across different gate types.
 
+### 4. Comparison with different preventive measures
+- Run gradient-based attack to GCNN after applying different preventive measures.
+- The preventive measures include differential privacy, gradient clipping, secure aggregation, model compression with quantization, and adversarial training.
+- Analyze reconstruction errors across different preventive measures for each gate types.
+
 ## Results & Insights
 
 - The attack on MNIST demonstrates how gradients expose input data, setting a baseline for understanding the vulnerability of neural networks.
