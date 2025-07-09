@@ -46,6 +46,9 @@ This notebook parses raw circuit netlist data from the ISCAS'85 and EPFL benchma
 3. **Use the GCNN implementation** to train on circuit data and perform the gradient leakage attack.
 4. **Analyze reconstruction errors** using the provided statistical and visualization tools along with several preventive measures.
 
+
+## The `Appendix` showing the outcome of gradient leakage under several defense strategies is given in the `Appendix_Gradient_Attack_GCNN.pdf` file.
+
 Contributions to defense strategies and further hardware security research are highly encouraged.
 
 
