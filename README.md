@@ -1,4 +1,4 @@
-# Gradient-Based Leakage Attacks for Graph Neural Networks (GNNs) in Circuit Analysis
+# Gradient-Based Leakage Attacks for Graph Neural Networks (GNNs) in Circuits
 
 This repository demonstrates gradient-based leakage attacks applied first to a standard neural network trained on the MNIST dataset and then to a several Graph Neural Networks (GNNs) trained on real-world circuit datasets (ISCAS'85 and EPFL) for gate classification and hardware Trojan detection.
 
