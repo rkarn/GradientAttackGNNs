@@ -20,25 +20,25 @@ This notebook introduces the core concept of gradient-based leakage attacks on a
 
 ## Code Flow
 
-### 1. Pedagogical Baseline with MNIST
+### 1. Pedagogical Baseline with MNIST in `Gradient Based Attack to MNIST.ipynb`
 - Implement a neural network.
 - Execute a gradient-based leakage attack to reconstruct MNIST inputs.
 - Visualize and evaluate reconstruction errors as a baseline for further studies.
 
-### 2. Parsing and Preprocessing Circuit Data
+### 2. Parsing and Preprocessing Circuit Data in `ISCAS85+EPFL_Parsing.ipynb`
 - Parse raw circuit netlists (ISCAS'85 and EPFL) using the dedicated notebook.
 - Extract nodes, edges, and key features.
 - Save the processed data in CSV format for use in GCNN training.
 
-### 3. GNN Attack on Circuit Data
+### 3. GNN (GCN, GraphSAGE, GIN, GAT) for Circuit Data for gate classification in folder `Gate Classification`
 - Construct and train a GNNs model using the processed circuit dataset.
 - Apply gradient-based leakage attacks to reconstruct sensitive node features.
 - Analyze reconstruction errors across different gate types.
 
-### 4. GNN Attack on Hardware Trojan Detection Model
-- Construct and train a GNNs model using the processed circuit dataset.
+### 4. GNN (GCN, GraphSAGE, GIN, GAT) for Hardware Trojan Detection Modelin folder `Hardware Trojan Dection`
+- Construct and train a GNNs model using the processed dataset in the folder  `GNNDatasets`.
 - Apply gradient-based leakage attacks to reconstruct sensitive node features.
-- Analyze reconstruction errors across different gate types.
+- Analyze reconstruction errors across different class types.
 
 ### 5. Comparison with different preventive measures
 - Applies to `Gate Classification` and `Hardware Trojan` folders for each notebook
