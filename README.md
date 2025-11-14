@@ -48,8 +48,5 @@ This notebook introduces the core concept of gradient-based leakage attacks on a
 
 
 
-## The `Appendix` showing the outcome of gradient leakage under several defense strategies is given in the `Appendix_Gradient_Attack_GCNN.pdf` file.
-
-Contributions to defense strategies and further hardware security research are highly encouraged.
 
 
