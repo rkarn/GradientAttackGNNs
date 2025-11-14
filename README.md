@@ -1,11 +1,14 @@
-# Gradient-Based Leakage Attacks for Graph Convolution Neural Networks (GCNNs) in Circuit Analysis
+# Gradient-Based Leakage Attacks for Graph Neural Networks (GNNs) in Circuit Analysis
 
-This repository demonstrates gradient-based leakage attacks applied first to a standard neural network trained on the MNIST dataset and then to a Graph Convolutional Neural Network (GCNN) trained on real-world circuit datasets (ISCAS'85 and EPFL).
+This repository demonstrates gradient-based leakage attacks applied first to a standard neural network trained on the MNIST dataset and then to a several Graph Neural Networks (GNNs) trained on real-world circuit datasets (ISCAS'85 and EPFL) for gate classification and hardware Trojan detection.
 
 ## Notebooks Overview
 
-### `Gradient Based Attack to NN.ipynb`
-This notebook introduces the core concept of gradient-based leakage attacks on a simple neural network trained with MNIST. It serves as a pedagogical baseline by illustrating how gradients can reveal input information and set the stage for more complex attacks.
+### `Gate Classification Folder`
+The notebooks in this folder introduces the core concept of gradient-based leakage attacks on several GNNs including `GCN`, `GraphSAGE`, `GIN`, and `GAT`. The end-to-end code is given in each of the jupyter notebook.
+
+### `Hardware Trojan Folder`
+The notebooks in this folder introduces the core concept of gradient-based leakage attacks on several GNNs including `GCN`, `GraphSAGE`, `GIN`, and `GAT`. The end-to-end code is given in each of the jupyter notebook. It also have the Trojan dataset and the way to generate it by inserting the templates from Trust hub in `Trojan_Injection_Parsing.ipynb`. 
 
 ### `ISCAS85+EPFL_Parsing.ipynb`
 This notebook parses raw circuit netlist data from the ISCAS'85 and EPFL benchmarks, extracting nodes, edges, and circuit features. The processed data is saved as a CSV file, which is later used to build a graph with DGL as input for the GCNN model.
