@@ -2,7 +2,7 @@
 
 This repository demonstrates gradient-based leakage attacks applied first to a standard neural network trained on the MNIST dataset and then to a several Graph Neural Networks (GNNs) trained on real-world circuit datasets (ISCAS'85 and EPFL) for gate classification and hardware Trojan detection.
 
-## Please refer to `Supplementary materials for Gradient_Attack_GNN.pdf` file for detailed mathematics and the results that are not covered in paper due to page limit. 
+## Please refer to `Supplementary materials for Gradient_Attack_GNN.pdf` file for the detailed mathematics and results that are not covered in the paper due to page limit. 
 
 ## Notebooks Overview
 
