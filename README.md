@@ -43,7 +43,7 @@ This notebook introduces the core concept of gradient-based leakage attacks on a
 ### 5. Comparison with different preventive measures
 - Applies to `Gate Classification` and `Hardware Trojan` folders for each notebook
 - Run gradient-based attack to GNNs after applying different preventive measures.
-- The preventive measures include differential privacy, gradient clipping, secure aggregation, model compression with quantization, and adversarial training.
+- The preventive measures include `differential privacy`, `gradient clipping`, `secure aggregation`, `model compression with quantization`, and `adversarial training`.
 - Analyze reconstruction errors across different preventive measures for each gate types.
 
 
